@@ -1,0 +1,31 @@
+{
+  "name": "mogeeb-ai-website",
+  "version": "1.0.0",
+  "description": "Mogeeb.ai - AI Solutions for Egyptian SMEs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "build": "echo 'Static site, no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "whatsapp",
+    "egypt",
+    "sme",
+    "automation",
+    "arabic"
+  ],
+  "author": "Mogeeb.ai Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-hazem-1/mogeeb.ai.git"
+  },
+  "homepage": "https://mogeeb.ai",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
