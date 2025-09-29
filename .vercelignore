@@ -17,11 +17,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Keep only production files
-!index.html
-!css/
-!js/
-!images/
-!logo/
+# Keep production files
+!public/
 !vercel.json
 !package.json

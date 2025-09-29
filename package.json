@@ -2,11 +2,11 @@
   "name": "mogeeb-ai-website",
   "version": "1.0.0",
   "description": "Mogeeb.ai - AI Solutions for Egyptian SMEs",
-  "main": "index.html",
+  "main": "public/index.html",
   "scripts": {
     "dev": "python -m http.server 8000",
     "start": "python -m http.server 8000",
-    "build": "echo 'Static site, no build required'",
+    "build": "echo 'Static site - copying files to public directory'",
     "deploy": "vercel --prod"
   },
   "keywords": [
